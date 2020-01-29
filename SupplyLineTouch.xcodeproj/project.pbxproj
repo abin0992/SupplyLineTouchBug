@@ -13,6 +13,8 @@
 		86BA4EDC23E1DB7200899562 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86BA4EDA23E1DB7200899562 /* Main.storyboard */; };
 		86BA4EDE23E1DB7500899562 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86BA4EDD23E1DB7500899562 /* Assets.xcassets */; };
 		86BA4EE123E1DB7500899562 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86BA4EDF23E1DB7500899562 /* LaunchScreen.storyboard */; };
+		86BA4EEA23E1E1D300899562 /* Places.plist in Resources */ = {isa = PBXBuildFile; fileRef = 86BA4EE923E1E1D300899562 /* Places.plist */; };
+		86BA4EEC23E1E2BD00899562 /* Places.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86BA4EEB23E1E2BD00899562 /* Places.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		86BA4EDD23E1DB7500899562 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		86BA4EE023E1DB7500899562 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		86BA4EE223E1DB7500899562 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86BA4EE923E1E1D300899562 /* Places.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Places.plist; sourceTree = "<group>"; };
+		86BA4EEB23E1E2BD00899562 /* Places.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Places.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 		86BA4ED323E1DB7200899562 /* SupplyLineTouch */ = {
 			isa = PBXGroup;
 			children = (
+				86BA4EEB23E1E2BD00899562 /* Places.swift */,
+				86BA4EE923E1E1D300899562 /* Places.plist */,
 				86BA4ED423E1DB7200899562 /* AppDelegate.swift */,
 				86BA4ED623E1DB7200899562 /* SceneDelegate.swift */,
 				86BA4ED823E1DB7200899562 /* ViewController.swift */,
@@ -127,6 +133,7 @@
 			files = (
 				86BA4EE123E1DB7500899562 /* LaunchScreen.storyboard in Resources */,
 				86BA4EDE23E1DB7500899562 /* Assets.xcassets in Resources */,
+				86BA4EEA23E1E1D300899562 /* Places.plist in Resources */,
 				86BA4EDC23E1DB7200899562 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,6 +148,7 @@
 				86BA4ED923E1DB7200899562 /* ViewController.swift in Sources */,
 				86BA4ED523E1DB7200899562 /* AppDelegate.swift in Sources */,
 				86BA4ED723E1DB7200899562 /* SceneDelegate.swift in Sources */,
+				86BA4EEC23E1E2BD00899562 /* Places.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +293,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K848J4WQ5W;
 				INFOPLIST_FILE = SupplyLineTouch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -302,6 +311,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K848J4WQ5W;
 				INFOPLIST_FILE = SupplyLineTouch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
