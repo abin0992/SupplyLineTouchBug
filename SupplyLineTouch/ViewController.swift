@@ -68,6 +68,7 @@ class ViewController: UIViewController {
     ///   - polyline: The polyline to be tested with the point.
     /// - Returns: Returns true when the point is within meters of the provided polyline.
     private func point(_ point: MKMapPoint, isWithin meters: Double, toLine polyline: MKPolyline) -> Bool {
+        guard polyline.pointCount > 1 else { return false }
         let meters = abs(meters)
         var distance: Double = Double.greatestFiniteMagnitude
         for n in 0..<polyline.pointCount - 1 {
@@ -105,7 +106,6 @@ class ViewController: UIViewController {
         let coordB: CLLocationCoordinate2D = mapView.convert(endPoint, toCoordinateFrom: mapView)
         return MKMapPoint(coordA).distance(to: MKMapPoint(coordB))
     }
-    
 }
 
 //MARK: - MKMapViewDelegate protocol
